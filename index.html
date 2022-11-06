@@ -5,27 +5,35 @@
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="home">
+  <body>
     <!-- INI NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="https://www.instagram.com/fathurrohman_07/?hl=id">FATHURROHMAN SOLEHUDIN</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#project">Gallery</a>
-            <a class="nav-link" href="#contact"> contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">FATHURROHMAN</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <!--jumbotron-->
-    <section class="jumbotron jumbotron-fluid text-center">
+    <section class="jumbotron jumbotron-fluid text-center"  id="home">
       <img src="img/IMG-20221103-WA0024.jpg" alt="Fathurrohman Solehudin" width="200" class="rounded-circle img-thumbnail" />
       <h3 class="display-4">Fathurrohman Solehudin</h3>
       <p class="lead">Mahasiswa | Politeknik Harapan Bersama Tegal</p>
@@ -35,12 +43,12 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row justify-content-lg-center">
-          <div class="col text-lg-center">
+        <div class="row text-center">
+          <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-lg-center text-center m-3">
+        <div class="row justify-content-lg-center m-3">
           <div class="col-md-5 text-center">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perferendis impedit at vero nesciunt nobis minima sapiente magni quam esse.</p>
           </div>
@@ -55,7 +63,7 @@
     </section>
 
     <!-- Gallery -->
-    <section id="project">
+    <section id="gallery">
       <div class="conainer">
         <div class="row text-center">
           <div class="col mb-3">
@@ -139,5 +147,8 @@
     <footer class="bg-primary text-white text-center pb-3">
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/fathurrohman_07/?hl=id" class="text-white fw-bold">FathurrohmanS</a></p>
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
   </body>
 </html>
