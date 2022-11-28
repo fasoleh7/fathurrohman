@@ -3,7 +3,9 @@
   background-color: #e2edff;
 }
 #gallery {
-  background-color: #e2edff;;
+  background-color: #e2edff;
+  padding-left:4rem;
+  padding-right:4rem;
 }
 section {
   padding-top: 5rem;
